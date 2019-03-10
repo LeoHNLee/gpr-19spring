@@ -1,0 +1,3 @@
+- anaconda virtual env
+- python == 3.6.7
+- tensorflow == 2.0.0
