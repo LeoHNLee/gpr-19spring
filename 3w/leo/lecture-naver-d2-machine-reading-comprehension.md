@@ -7,12 +7,12 @@
 
 ## contents
 
-- [1. encoder](#ch.1-encoder) : 모델에 좋은 데이터를 집어넣기
-- [2. attention](#ch.2-attention) : 문맥 관계 파악 (질의와 문맥간의)
-- [3. output](#ch.3-output) : 단어 위치 추정
-- [4. learning methods](#ch.4-learning-methods)
+- [1. encoder](#ch1-encoder) : 모델에 좋은 데이터를 집어넣기
+- [2. attention](#ch2-attention) : 문맥 관계 파악 (질의와 문맥간의)
+- [3. output](#ch3-output) : 단어 위치 추정
+- [4. learning methods](#ch4-learning-methods)
 
-## ch.1 encoder
+## ch1 encoder
 
 ### ss.1.1 word embedding
 
@@ -101,7 +101,7 @@
 
 #### sss.1.5.2 transformer
 
-## ch.2 attention
+## ch2 attention
 
 ### ss.2.1 attention mechanism
 
@@ -127,12 +127,12 @@
 - 주의점 : 같은 문장을 비교하니까 같은 단어를 attention한다
   - sol) 동일한 단어의 위치를 무시하는 heuristic
 
-## ch.3 output
+## ch3 output
 
 - start-end의 확률 분포를 통해 계산
 - pointer networks를 통해 계산
 
-## ch.4 learning methods
+## ch4 learning methods
 
 - negative log probability
 - reinforce algorithm : f1 score를 reward로
