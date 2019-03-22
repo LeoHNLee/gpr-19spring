@@ -5,25 +5,29 @@
 ## Joined Competitions
 
 - [kaggle](https://www.kaggle.com/c/gendered-pronoun-resolution)
+  - [Kaggle GPR github](https://github.com/google-research-datasets/gap-coreference)
 - [SQuAD](https://rajpurkar.github.io/SQuAD-explorer/)
 - [KorQuAD](https://korquad.github.io/)
 
 ## Sources
 
-### About kaggle competition
-
-- [Kaggle GPR github](https://github.com/google-research-datasets/gap-coreference)
-
-#### kernels
+### kaggle-kernels
 
 - [Top 3 NLP package](https://www.kaggle.com/hnleolee/top-3-nlp-libraries-tutorial-nltk-spacy-gensim)
 - [bert a baseline](https://www.kaggle.com/hnleolee/taming-the-bert-a-baseline)
+- [kaggle w/ fe](https://www.kaggle.com/keyit92/coref-by-mlp-cnn-coattention)
+
+### lectures
+
+- [machine reading comprehension - naver d2 seminar](https://www.youtube.com/watch?v=XBCkJck0cdY)
+- [reading text & machine QA - naver d2 seminar](https://www.youtube.com/watch?v=r0veZ_WV0sA)
 
 ### Books
 
 - [텐서플로와 머신러닝으로 시작하는 자연어 처리](http://www.yes24.com/Product/Goods/69334316)
 - [파이썬과 자연어 처리]()
   - 불친절한 설명
+  - [summarization](2w/leo/Mastering-Natural-Language-Processing-with-Python.md)
 
 ### Models
 
