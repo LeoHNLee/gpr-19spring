@@ -225,7 +225,7 @@
 - 기존의 seq 2 seq의 encoder-decoder 수조를 가지고 있지만,
 CNN, RNN 등을 사용하는 게 아니라 attention 구조로만 전체 모델을 만들어 attention 기법의 중요성을 강조
 - [Attention is all you need, 2017 google at al](../../assets/attention-is-all-you-need.pdf) : 이건 조만간 꼭 읽어봐야지
-![transformer 구조]((../../assets/book-tf-ml-nlp/transformer.jpg)
+![transformer 구조](../../assets/book-tf-ml-nlp/transformer.jpg)
 - [transformer 구현](../../modules/transformer.py)
 
 #### sss-6-4-1 self attention
@@ -235,12 +235,12 @@ CNN, RNN 등을 사용하는 게 아니라 attention 구조로만 전체 모델�
   1. 각 단어가 단어벡터로 이루어져 있다
   2. 각 단어의 어텐션 스코어를 구한다.
     - 내적 등 유사도 계산 방법으로 구하는 방법, NN으로 구하는 방법
-  ![attention score 구하는 방법](../../book-tf-ml-nlp/attention-score.jpg)
+  ![attention score 구하는 방법](../../assets/book-tf-ml-nlp/attention-score.jpg)
   3. 2번에서 구한 어텐션 맵에 소프트 맥스 함수를 적용하여 어텐션 스코어를 확률값으로 표현한다.
     - 특정 단어에 대한 다른 단어와의 연관도 값이 확률로 표현된다.
   4. 어텐션 스코어와 각 단어벡터와 상수곱 연산을 통해 가중합 한다.
   5. 해당 단어에 대한 벡터값으로 사용한다.
-  ![학습 순서](../../book-tf-ml-nlp/self-attention.jpg)
+  ![학습 순서](../../assets/book-tf-ml-nlp/self-attention.jpg)
 - 다른 단어들과의 유사도를 '어텐션'해서 새로운 단어 벡터를 구할 수 있다.
 
 #### sss-6-4-2 모델 구현
