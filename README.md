@@ -1,6 +1,25 @@
-# NLP, Gendered Pronoun Resolution
+# (finished project) NLP, Gendered Pronoun Resolution
 
 - [github](https://github.com/LeoHNLee/gpr-19spring)
+
+## final summary 4 e1
+
+- NLP project processing
+  - [machine reading comprehension - naver d2 seminar](https://www.youtube.com/watch?v=XBCkJck0cdY)
+  - [reading text & machine QA - naver d2 seminar](https://www.youtube.com/watch?v=r0veZ_WV0sA)
+
+- all about NLP task
+  - [Mastering Natural Language Processing with Python](./2w/leo/Mastering-Natural-Language-Processing-with-Python.md)
+
+- transformer & easy to NLP
+  - [텐서플로와 머신러닝으로 시작하는 자연어 처리](./4w/leo/book-tf-ml-nlp.md)
+  - [transformer paper review](https://pozalabs.github.io/transformer/)
+
+- bert
+  - [bert 돌아보기](http://docs.likejazz.com/bert/)
+
+
+---------
 
 ## Joined Competitions
 
@@ -16,28 +35,6 @@
 - [Top 3 NLP package](https://www.kaggle.com/hnleolee/top-3-nlp-libraries-tutorial-nltk-spacy-gensim)
 - [bert a baseline](https://www.kaggle.com/hnleolee/taming-the-bert-a-baseline)
 - [kaggle w/ fe](https://www.kaggle.com/keyit92/coref-by-mlp-cnn-coattention)
-
-### lectures
-
-- [machine reading comprehension - naver d2 seminar](https://www.youtube.com/watch?v=XBCkJck0cdY)
-- [reading text & machine QA - naver d2 seminar](https://www.youtube.com/watch?v=r0veZ_WV0sA)
-
-### Books
-
-- [텐서플로와 머신러닝으로 시작하는 자연어 처리](http://www.yes24.com/Product/Goods/69334316)
-- [파이썬과 자연어 처리]()
-  - 불친절한 설명
-  - [summarization](2w/leo/Mastering-Natural-Language-Processing-with-Python.md)
-
-### Models
-
-#### Transformer
-
-- [transformer paper review](https://pozalabs.github.io/transformer/)
-
-#### BERT
-
-- [bert 돌아보기](http://docs.likejazz.com/bert/)
 
 ### About CS skills
 
